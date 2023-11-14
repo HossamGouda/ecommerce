@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "JF Flat Regular";
+  src: url(../fonts/JF-Flat-regular.eot);
+  src: url(../fonts/JF-Flat-regular.eot?#iefix) format("embedded-opentype"),
+    url("../fonts/JF-Flat-regular.svg#JF Flat Regular") format("svg"),
+    url(../fonts/JF-Flat-regular.woff) format("woff"),
+    url(../fonts/JF-Flat-regular.ttf) format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+body {
+  font-family: "JF Flat Regular", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+}
+
+.custom-navbar {
+  border-bottom: 3px solid #eef0ea;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.custom-form-control,
+.custom-btn {
+  border: 1px solid #ebebeb;
+  box-shadow: none;
+  border-radius: 2px;
+  color: #868686;
+  height: 38px;
+  padding: 6px 16px 7px;
+  transition: all 0.3s ease;
+}
+
+.custom-form-control:focus {
+  border-color: #c2101e;
+  box-shadow: 0 0 2px 0;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #ff3956;
+}
+.custom-btn:focus {
+  color: #ff3956;
+}
+.categories {
+  border-right: 0 !important;
+  border-radius: 0;
+}
+.dropdown a.categories {
+  border-right: 0 !important;
+  border-radius: 0;
+}
+
+.custom-dropdown-menu {
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 #ebebeb;
+  color: #777;
+}
+
+.search-btn {
+  background-color: #ff3956;
+  border-color: #ff3956;
+  color: #fff;
+  padding: 5px 15px 7px;
+  height: 38px;
+  width: 65px;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.search-btn:hover,
+.search-btn:active,
+.search-btn:focus,
+.search-btn:active:focus,
+.search-btn:active:hover {
+  background-color: #c2101e;
+  border-color: #c2101e;
+  color: #fff;
+}
+
+.nav-link {
+  color: #555555;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.custom-navbar .navbar-nav li.active a.nav-link {
+  color: #ff3956;
+  font-weight: 700;
+  border-bottom: 1px solid #ff3956;
+}
+
+.custom-navbar .navbar-nav li.active:hover a.nav-link {
+  background-color: #e7e7e7;
+}
+
+.custom-dropdown-menu li a:hover {
+  background-color: #ffe7ea;
+}
+
+.custom-navbar .btn-icon {
+  padding: 5px 10px;
+  color: #777;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-right: 15px;
+}

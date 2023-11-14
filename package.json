@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce template using webpack and bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "keywords": [
+    "webpack",
+    "bootstrap",
+    "ecommerce"
+  ],
+  "author": "abdulhamid",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "rtlcss-loader": "^1.0.3",
+    "sass": "^1.60.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0"
+  }
+}
