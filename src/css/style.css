@@ -114,3 +114,140 @@ body {
   font-size: 14px;
   margin-right: 15px;
 }
+/* قسم عارض الشرائح */
+
+#carousel-featured {
+  background-color: #f7f8f3;
+  height: 400px;
+  padding-top: 25px;
+}
+
+#carousel-featured .carousel-item img {
+  height: 375px;
+}
+
+#carousel-featured .product-details {
+  border: 1px solid #dddddb;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  height: 200px;
+  background-color: #f7f8f3;
+}
+
+#carousel-featured .product-details h1 {
+  font-weight: 700;
+  font-size: 175%;
+  margin-top: 18px;
+}
+
+#carousel-featured .product-details .product-category {
+  border: 1px solid #dddddb;
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #f7f8f3;
+}
+
+.sale {
+  background-color: #53ccd7;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sale.large {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  left: -15px;
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
+  padding: 35px;
+  line-height: 90%;
+  flex-direction: column;
+  transform: rotate(-25deg);
+}
+
+.custom-carousel-indicators {
+  top: 235px;
+  right: 41%;
+}
+
+.custom-carousel-indicators-primary {
+  height: 70px !important;
+  width: 70px !important;
+  opacity: 1 !important;
+  border: 2px solid #dddddb !important;
+  margin: 0 !important;
+  margin-left: 5px !important;
+}
+
+.custom-carousel-indicators-primary.active {
+  border-color: #f8ad47 !important;
+}
+
+#carousel-featured .carousel-control-prev .fa-chevron-right,
+#carousel-featured .carousel-control-next .fa-chevron-left {
+  color: #868686;
+  font-size: 38px;
+}
+
+#store-features {
+  box-shadow: 0 0 15px #eef0ea;
+  background-image: url(../images/bg_features.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -30px;
+  background-size: auto 60%;
+  background-color: #fff;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  background-position: -10px -20px;
+}
+
+#store-features .feature > img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+#store-features .feature + .feature {
+  border-right: 1px solid #eef0ea;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.price {
+  color: #53ccd7;
+}
+
+.rating {
+  color: #c2c2c2;
+}
+
+.rating .active {
+  color: #f3af41;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(83, 204, 215, 0.5);
+  height: 250px;
+  width: calc(100% - 16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
