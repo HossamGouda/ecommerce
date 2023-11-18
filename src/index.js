@@ -8,6 +8,12 @@ document
   .querySelectorAll('[data-bs-toggle="tooltip"]')
   .forEach((item) => new bootstrap.Tooltip(item));
 
+document.querySelectorAll(".add-to-cart-btn").forEach((item) => {
+  item.addEventListener("click", () => {
+    alert("أضيف المُنتج إلى عربة الشراء");
+  });
+});
+
 // const tooltipTriggerList = document.querySelectorAll(
 //   '[data-bs-toggle="tooltip"]'
 // );

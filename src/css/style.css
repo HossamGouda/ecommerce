@@ -251,3 +251,74 @@ body {
 .overlay:hover {
   opacity: 1;
 }
+
+.custom-thumbnail .sale {
+  padding: 5px 10px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+}
+
+.custom-thumbnail .sale::before {
+  content: "-";
+}
+
+.custom-carousel-indicators2 {
+  bottom: -70px !important;
+  list-style: none;
+}
+
+.custom-carousel-indicators2 > li {
+  width: 13px !important;
+  height: 13px !important;
+  margin: 2px !important;
+  background-color: #dbdbdb !important;
+}
+
+.custom-carousel-indicators2 > li.active {
+  background-color: #565656 !important;
+}
+
+.panel {
+  border: 4px solid #eef0ea;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.panel h4,
+.panel .price {
+  font-size: 130%;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.custom-text-muted {
+  color: #a9a9a9;
+}
+
+.arrow-btn {
+  background-color: #fff;
+  color: #868686;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+#row-brands h3.heading {
+  border-top: 1px solid #eef0ea;
+  padding-top: 25px;
+}
+
+#brand-logos {
+  background-color: #dbeefa;
+  padding: 25px 0;
+  color: #555555;
+}
+
+#brand-logos img {
+  margin-left: 25px;
+  margin-right: 25px;
+  max-width: 100px;
+  max-height: 100px;
+}
