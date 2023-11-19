@@ -14,6 +14,9 @@ document.querySelectorAll(".add-to-cart-btn").forEach((item) => {
   });
 });
 
+document.getElementById("copyright").innerHTML =
+  "جميع الحقوق محفوظة للمتجر سنة" + "  " + new Date().getFullYear();
+
 // const tooltipTriggerList = document.querySelectorAll(
 //   '[data-bs-toggle="tooltip"]'
 // );
