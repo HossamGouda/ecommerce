@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$warning: #ffc107;
+
+$theme-colors: (
+  "warning": $warning,
+);
+
+$input-btn-padding-y: 0.575rem;

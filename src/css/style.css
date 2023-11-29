@@ -23,7 +23,7 @@ body {
   background-color: #fff;
   padding: 15px 0;
 }
-
+/* 
 .custom-form-control,
 .custom-btn {
   border: 1px solid #ebebeb;
@@ -33,12 +33,12 @@ body {
   height: 38px;
   padding: 6px 16px 7px;
   transition: all 0.3s ease;
-}
+} */
 
-.custom-form-control:focus {
+/* .custom-form-control:focus {
   border-color: #c2101e;
   box-shadow: 0 0 2px 0;
-}
+} */
 
 .custom-btn:hover {
   background-color: #d4d4d4;
@@ -378,7 +378,7 @@ body {
   height: 38px;
 }
 
-.custom-btn-warning {
+/* .custom-btn-warning {
   color: #000;
   background-color: #f8ad47;
   border-color: #f8ad47;
@@ -391,7 +391,7 @@ body {
 .custom-btn-warning:active:hover {
   border-color: #b86d07;
   color: #b86d07;
-}
+} */
 
 .newsletter form button {
   border-radius: 0;
@@ -563,10 +563,55 @@ h1.custom-heading {
   margin-left: 10px;
 }
 
+/* .custome-table th,
+.custom-table td {
+  padding: 15px;
+  font-size: 120%;
+  vertical-align: middle;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+}
+
+.custome-table h4 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.custom-table thead th {
+  color: #c2c2c2;
+  font-weight: normal;
+  padding: 15px;
+  font-size: 120%;
+  vertical-align: middle;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child{
+  width: 50%;
+}
+.custom-table th :not(:first-child),
+.custom-table th :not(:first-child){
+  text-align: center;
+}
+.custom-table tfoot td{
+  border-bottom: none;
+  font-size: 150%;
+} */
 #total-price-for-all-product {
   color: #000;
 }
 
+.custom-btn-outline-danger {
+  background-color: transparent;
+  border-color: #ff3956;
+  color: #ff3956;
+}
+.custom-btn-outline-danger:hover {
+  border-color: #b9001b;
+  color: #b9001b;
+}
 /*
 --------- Payment Page ---------
 */
@@ -726,12 +771,12 @@ h1.custom-heading {
     display: none;
   }
 
-  .add-to-cart-btn {
+  /* .add-to-cart-btn {
     color: #868686;
     border-color: #868686;
     margin-top: 8px;
     font-weight: 400;
-  }
+  } */
 
   #row-brands .carousel-inner img {
     width: 200px !important;
@@ -833,4 +878,21 @@ h1.custom-heading {
   .comments {
     padding-right: 15px;
   }
+}
+
+#store-features{
+  margin: auto;
+}
+#navbarCollapse .navbar-nav{
+  margin-right: auto;
+}
+.newsletter{
+  margin: auto;
+}
+.carousel-control-prev{
+  left: unset;
+}
+.carousel-control-next{
+  right: unset;
+  left: 0;
 }
